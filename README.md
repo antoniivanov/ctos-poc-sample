@@ -1,4 +1,4 @@
-# Sample Job
+# Jobs and Anonymization POC
 
 This repositories contains sample jobs and plugin used to demonstrate how to create automated data pipeline: 
 
