@@ -4,7 +4,7 @@ This repositories contains sample jobs and plugin used to demonstrate how to cre
 
 ![ingest-and-anonymization-poc](https://user-images.githubusercontent.com/2536458/175011607-b8cfb78a-baa6-4412-acbd-4670585b9902.png)
 
-1. Ingest data from XML API . We ingest currency rate of USD to Polish Zloty for last year.
+1. Ingest data in XML format . We ingest currency rate of USD to Polish Zloty for last year from Polish Bank APIs (but could be any source)
 2. Prior to writing the data to a cloud storage it de-personalize it based on configuration (provided by plugin)
 3. The data is written into relation database as different tables (again configurable) 
 
