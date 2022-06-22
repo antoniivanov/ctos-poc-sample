@@ -24,6 +24,7 @@ def run(job_input: IJobInput):
     See IJobInput documentation for more details.
     """
 
+    # we are using http just as an example. But in reality the source could be anything - S3, file share, database, etc.)
     response = requests.get("https://api.nbp.pl/api/exchangerates/rates/c/eur/2011-01-01/2012-01-01/?format=xml")
 
     def ingest(_, data):
