@@ -41,7 +41,7 @@ Later we can install the plugin Go to [../plugins/vdk-poc-anonymize](../../plugi
 ```
 pip install ../plugins/vdk-poc-anonymize
 ```
-and uncomment in config.ini
+and uncomment in config.ini (that can also be set system wide - applied for all jobs)
 ```
 ingest_payload_preprocess_sequence=anonymize
 ```
