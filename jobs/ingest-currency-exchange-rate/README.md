@@ -1,4 +1,16 @@
-# My shiny new job
+# Ingest Example Job
+
+
+This is an example data job that will fetch data from https://api.nbp.pl/api (National Bank of Poland) , the conversation rate of EURO to Polish zloty in last year in XML format. 
+
+For example the data is https://api.nbp.pl/api/exchangerates/rates/c/eur/2011-01-01/2012-01-01/?format=xml
+
+And it will be ingested automatically in Database tables. 
+
+![ingest](https://user-images.githubusercontent.com/2536458/175025089-de94c534-db4f-4ea2-b651-9e4b4ca4f839.png)
+
+
+## Short VDK Data Job creation and writing tutorial
 
 Versatile Data Kit feature allows you to implement automated pull ingestion and batch data processing.
 
