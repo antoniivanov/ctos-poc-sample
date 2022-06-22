@@ -2,9 +2,13 @@
 
 This repositories contains sample jobs and plugin used to demonstrate how to create automated data pipeline: 
 
+![ingest-and-anonymization-poc](https://user-images.githubusercontent.com/2536458/175011607-b8cfb78a-baa6-4412-acbd-4670585b9902.png)
+
 1. Ingest data from XML API 
-2. Prior to writing the data to a cloud storage it de-personalize it based on configuration
+2. Prior to writing the data to a cloud storage it de-personalize it based on configuration (provided by plugin
+3. The data is written into relation database as different tables (again configurable) 
 
-Directory "jobs" contains a sample data job that can be implemented by data engineers. 
+This repo structure: 
+- Directory "jobs" contains a sample data job that can be implemented by data engineers. 
+- Directory "plugins" contains a plugin expected to be developed and applied for all data jobs created by all data engineers in the company.
 
-Directory "plugins" contains a plugin expected to be developed and applied for all data jobs created by all data engineers in the company.
