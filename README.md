@@ -12,3 +12,5 @@ This repo structure:
 - Directory "jobs" contains a sample data job that can be implemented by data engineers. 
 - Directory "plugins" contains a plugin expected to be developed and once installed it will be automatically applied for all data jobs created by all data engineers in the company.
 
+
+
